@@ -1,6 +1,7 @@
 body {
     margin : 0em;
     font-family: 'Poppins', sans-serif;
+    word-spacing: 0.3px;
 }
 
 /* h1{
@@ -88,4 +89,81 @@ body {
 .skill-two{
     font-size: 30px;
     color : #4b53e4;
+}
+
+.contact-heading{
+    font-size: 40px;
+    color : #4b53e4;
+}
+
+.contact-second-heading{
+    font-size: 30px;
+    color : #4b53e4;
+    font-weight: 400;
+}
+
+.contact-me{
+    text-align: center;
+    margin : auto;
+    width : 25%
+}
+
+.contact-description{
+    margin-bottom: 50px;
+}
+
+.btn{
+
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #4b53e4;
+padding: 10px 30px;
+border: solid #4b53e4 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+/* display: flex;
+flex-direction: row; */
+align-items: center;
+cursor: pointer;
+width : 20%;
+/* margin : auto 150px; */
+text-decoration: none;
+
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #4b53e4;
+border: solid 2px #4b53e4;
+/* text-decoration: none; */
+}
+
+.bottom-container{
+    margin-top: 50px;
+    background-color: #4b53e4;
+    height : 125px;
+    text-align: center;
+}
+
+.footer-link{
+    text-align: center;
+    padding : 50px;
+    position : relative;
+    top : 20px;
+    color : white;
+    text-decoration: none;
+}
+
+.trademark{
+    position : relative;
+    top : 25px;
+    color : white;
+    text-decoration: none;
 }
