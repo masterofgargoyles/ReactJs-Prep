@@ -49,3 +49,43 @@ body {
 .light-name{
     font-weight: 200;
 }
+
+.skills{
+    width: 30%;
+    margin : auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill-row{
+    margin : 50px auto 100px auto;
+}
+
+.design-image{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+
+.engineering-image{
+    width: 30%;
+    float : right;
+    margin-left : 50px;
+}
+
+.skills-heading{
+    text-align : center;
+    margin-top : 50px;
+    font-size: 40px;
+    color : #4b53e4;
+}
+
+.skill-one{
+    font-size: 30px;
+    color : #4b53e4;
+}
+
+.skill-two{
+    font-size: 30px;
+    color : #4b53e4;
+}
