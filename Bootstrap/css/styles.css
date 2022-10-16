@@ -8,8 +8,73 @@
 .landing-header{
     font-weight: 700;
     font-size: 5em;
+    color:#fff;
 }
 
 .container-fluid{
     padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar {
+    padding : 0 0 4.5rem 0;
+}
+
+.nav-item{
+    padding : 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3em;
+    color: white;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.landing-image{
+    width : 60%;
+    transform: rotate(20deg);
+}
+
+.fa-google-play{
+    padding-right: 10px;
+}
+
+.fa-apple{
+    padding-right: 10px;
+}
+
+.app-description{
+    padding : 9% 0 7% 0;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 0.3px;
+}
+
+.description-heading{
+    font-weight: 800;
+}
+
+.description-body{
+    width: 300px;
+    margin:auto;
+}
+
+.description-icon{
+    padding : 0 0 40px 0;
+    color: #ef8172;
+}
+
+.description-icon:hover{
+    color: #ff4c68;
+}
+
+.description-row{
+    width:70%;
+    margin: auto;
 }
