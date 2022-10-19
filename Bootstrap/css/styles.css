@@ -5,6 +5,13 @@
     word-spacing: 0.3px;
 }
 
+@media (max-width: 990px){
+    .landing-image{
+        width : 100%;
+        position : relative;
+    }
+}
+
 .landing-header{
     font-weight: 700;
     font-size: 5em;
@@ -130,4 +137,15 @@
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width: 990px){
+    .landing-image{
+        position : relative;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
 }
