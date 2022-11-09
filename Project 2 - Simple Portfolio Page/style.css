@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* padding-left: 2.5rem;
+    padding-right: 2.5rem; */
+    background-color: #EFF5F5;
+}
+
+.name{
+    padding : 70px 70px 40px 70px;
+}
+
+.name h1 {
+    font-weight: 500;
+    color: #EB6440;
+    font-size: 70px;
+}
+
+.short-intro{
+    font-weight : 500;
+    color : #497174;
+    margin-bottom: 2px;
+}
+
+.short-intro-two{
+    color : #95afb1;
+}
+
+.about-me{
+    padding : 70px;
+    width : calc(100% - 70px);
+}
+
+.about-content{
+    font-size: 3.7em;
+    line-height: 4.7rem;
+    color : #497174;
+}
+
+.about-content span {
+    font-weight: 400px;
+    color: #EB6440;
+}
+
+.capabilities{
+    margin-top: 50px;
+    list-style: none;
+    padding : 0;
+}
+
+.capabilities h3 {
+    color: #EB6440;
+    font-size: 2.5rem;
+}
+
+.capabilities li {
+    font-size: 1.7rem;
+    display: inline;
+    padding-right: 50px;
+    color: #497174;
+    font-weight: 500;
+}
+
+.capabilities li i {
+    padding-right : 15px;
+    color: #EB6440;
+}
+
+.jhon-photo{
+    width:500px;
+    border-radius: 10px;
+}
+
+.break-links {
+    padding : 80px 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    color :#497174;
+}
+
+.project-one{
+    padding : 70px;
+}
