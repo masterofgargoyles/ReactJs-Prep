@@ -80,3 +80,37 @@ body{
 .project-one{
     padding : 70px;
 }
+
+.projects .row {
+   padding-left: 70px;
+   text-align: center;
+}
+
+.project-content-left{
+    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+.project-content-right{
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.project-image { 
+    border-radius: 10px;
+}
+
+.project-description { 
+    text-align: left;
+    font-size: 3.2em;
+    line-height: 4.4rem;
+    color : #497174;
+    width : calc(100%-70px)
+
+}
+
+.project-description span{
+    font-weight: 400px;
+    color: #EB6440;
+}
