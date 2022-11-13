@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Helvetica Medium';
+    src: url(fonts/HelveticaNowText-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url(fonts/HelveticaNowText-Bold.ttf);
+}
+
+body{
+    font-family: Helvetica Medium;
+    background-color: #8981B2;
+}
+
+.navbar{
+    width:100%;
+    position : absolute;
+    padding : 0;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.nav-logo{
+    padding-left: 50px;
+    /* padding-top: 5px; */
+}
+
+.navbar-items {
+    padding : 0 50px;
+}
+
+.navbar-nav-links {
+    padding-right: 2rem;
+}
+
+.navbar-nav-links li {
+    /* padding:0; */
+    padding-right : 10px;
+}
+
+.register-login-button{
+    border-color: white;
+    color : #8981B2;
+    background-color: white;
+}
+
+.btn-outline-primary :hover  {
+    background-color: #8981B2 !important;
+    color : white !important;
+}
+
+#landing-carousel{
+    z-index: -1;
+    position: absolute;
+    
+}
+
+.carousel-image{
+    filter: brightness(60%);
+}
+
+.landing-header{
+    position : relative;
+    text-align: center;
+    top :500px;
+    color: white;
+    font-family: 'Helvetica Bold';
+    font-size: 5em;
+    letter-spacing: -2px;
+}
+
+.landing-button{
+    position:relative;
+    top :500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* .landing-content{
+    position: absolute;
+    top : 200px;
+} */
